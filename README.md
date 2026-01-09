@@ -26,7 +26,7 @@ A organização das pastas segue o padrão MVC/WebAPI:
 * **Models**: Representação das entidades que são salvas no banco de dados.
 * **Migrations**: Histórico de versões do banco de dados.
 * **Profiles**: Configurações de mapeamento do AutoMapper.
-* **Pages**: (Opcional) Interface ou páginas de suporte integradas.
+* **Pages**: (Opcional) Interface ou páginas de suporte integradas.(A ainda esta em desenvolvimento entao nao funciona direito).
 
 ## 🛠️ Como Executar
 
