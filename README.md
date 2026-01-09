@@ -1,4 +1,10 @@
+# Filmes API 🎥
 
+![.NET Version](https://img.shields.io/badge/.NET-8.0-purple)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
+
+> API desenvolvida para o gerenciamento de catálogos de filmes, aplicando conceitos de DTOs, AutoMapper e Entity Framework.
 
 # 🎬 Filmes API
 
