@@ -46,20 +46,6 @@ public class FilmeController : ControllerBase
         // 2. Faz a busca paginada
         var filmes = _context.Filmes.Skip(skip).Take(take).ToList();
 
-        // 3. Mapeia para o seu ReadFilmeDto
-        var filmesDto = _mapper.Map<List<ReadFilmeDto>>(filmes);
-
-        // 4. Retorna o objeto completo com metadados
-        var resultado = new PageResult<ReadFilmeDto>
-        {
-            TotalRegistros = total,
-            Skip = skip,
-            Take = take,
-            Itens = filmesDto
-        };
-
-        return Ok(resultado);
-    }
     [HttpGet("{id}")]
 
 
